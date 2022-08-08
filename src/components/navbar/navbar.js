@@ -9,7 +9,7 @@ function Navbar(){
 
     return(
         <nav className="navbar navbar-expand-lg">
-            <i className="far fa-smile-wink text-white fa-2x"></i>
+                <i className="far fa-smile-wink text-white fa-2x"></i>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fas fa-bars text-white"></i>
                 </button>

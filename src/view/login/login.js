@@ -33,8 +33,9 @@ function Login(){
             {
                 useSelector(state => state.usuarioLogado) > 0 ? <Navigate to='/'/> : null
             }
-            <div className="login-content d-flex align-items-centr">
-                <form className="form-signin mx-auto ">
+            <div className="login-content d-flex align-items-center">
+                <form className="form-signin mx-auto mb-4 ">
+     
                     <h1 className="h3 mb-3 fw-normal text-center text-white fw-bold">Login</h1>
 
                     <div className="form-floating">
@@ -58,7 +59,7 @@ function Login(){
                     </div>
 
                     <div className="opcoes-login mt-4">
-                        <a href='#' className="mx-2">Recuperar senha</a>
+                        <Link to='/recuperar-senha' className=" mx-2 ">Recuperar senha</Link>
                         <span className='text-white'>&#9733;</span>
                         <Link to='/cadastrar-usuario' className=" mx-2 ">Cadastre aqui !</Link>
                     </div>

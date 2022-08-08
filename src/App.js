@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 import Login from "./view/login/login"
 import Home from "./view/home/home"
 import CadastroUsuario from "./view/cadastro-usuario"
+import RecuperarSenha from "./view/recuperar-senha";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route  path="/" element = {<Home/>}/>
           <Route  path="/login" element = {<Login/>}/>
           <Route  path="/cadastrar-usuario" element = {<CadastroUsuario/>}/>
+          <Route  path="/recuperar-senha" element = {<RecuperarSenha/>}/>
         </Routes>
       </Router>
     </Provider>
